@@ -4,6 +4,8 @@ id - bigint - unique, not_null, auto_increment - primary key
 
 casa_madre - var_char(20) - not_null
 
+modello - var_char(20) - not_null
+
 usata - bool (tinyint(1)) - null
 
 incidenti - bool(tinyint(1)) - null (se ha avuto incidenti o meno intendo)
@@ -15,6 +17,25 @@ foto - varchar - null
 kilometri - smallint - null
 
 aziendale - bool(tinyint(1)) - null
+
+motore - char(10) - null
+
+anno_immatricolazione - var_char(12) - null
+
+carrozzeria - varchar(20) - null
+
+interni - varchar(20) - null
+
+colore - varchar(20) - null
+
+posti - varchar(4) - null
+
+porte - varchar(4) - null
+
+prezzo - float(6, 3) - not_null
+
+
+
 
 
 
