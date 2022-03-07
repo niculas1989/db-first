@@ -1,4 +1,14 @@
+AUTO
 
+id - bigint - unique, not_null, auto_increment - primary key
+
+casa_madre - var_char(20) - not_null
+
+usata - bool (tinyint(1)) - null
+
+incidenti - bool(tinyint(1)) - null (se ha avuto incidenti o meno intendo)
+
+costo - tinyint - null
 
 
 
