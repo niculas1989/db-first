@@ -10,6 +10,13 @@ incidenti - bool(tinyint(1)) - null (se ha avuto incidenti o meno intendo)
 
 costo - tinyint - null
 
+foto - varchar - null
+
+kilometri - smallint - null
+
+aziendale - bool(tinyint(1)) - null
+
+
 
 
 
