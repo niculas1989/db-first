@@ -32,7 +32,7 @@ posti - varchar(4) - null
 
 porte - varchar(4) - null
 
-prezzo - float(6, 3) - not_null
+prezzo - float(9, 3) - not_null
 
 
 
